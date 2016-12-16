@@ -338,8 +338,5 @@ $(function () { // Same as document.addEventListener("DOMContentLoaded"...
         html = insertProperty(html, portionPropName, portionValue);
         return html;
     }
-
-
     global.$dc = dc;
-
 })(window);
